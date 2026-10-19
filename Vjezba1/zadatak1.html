@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="hr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Web radionica za srednjoškolce</title>
+  </head>
+  <body>
+    <h1>Web radionica: Napravi svoju prvu stranicu</h1>
+
+    <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/250px-HTML5_logo_and_wordmark.svg.png" alt="HTML5 Logo" />
+
+    <h2>O događaju</h2>
+    <p>
+      Web radionica je jednodnevni događaj namijenjen srednjoškolcima koji žele
+      napraviti svoj prvi korak u svijetu web programiranja. Nije potrebno prethodno
+      znanje programiranja.
+    </p>
+    <p>
+      Radionica će se održati u subotu, 14. novembra 2026. godine, u učionici 1-13
+      na Elektrotehničkom fakultetu u Sarajevu, od 10:00 do 14:00 časova. Na kraju
+      radionice svaki učesnik će imati svoju prvu objavljenu web stranicu.
+    </p>
+
+    <h2>Program radionice</h2>
+    <ul>
+      <li>Uvod u HTML i struktura web stranice</li>
+      <li>Naslovi, paragrafi, liste i linkovi</li>
+      <li>Uvod u tabele i forme</li>
+      <li>Objavljivanje stranice na internetu</li>
+    </ul>
+
+    <h2>Prijava</h2>
+    <p>
+      Broj mjesta je ograničen na 30 učesnika. Prijavu je moguće izvršiti isključivo
+      popunjavanjem donje forme na ovoj stranici, a prijava vrijedi tek kada potvrdu
+      primite porukom na email. Prijava traje do 10. novembra 2026. godine.
+    </p>
+
+    <form>
+      <label for="ime">Ime i prezime:</label>
+      <input type="text" id="ime" name="ime" />
+      <br />
+      <label for="skola">Srednja škola:</label>
+      <input type="text" id="skola" name="skola" />
+      <br />
+      <p>Koliko imaš iskustva sa izradom web stranica?</p>
+      <input type="radio" id="nema" name="iskustvo" value="nema" />
+      <label for="nema">Nikakvo</label>
+      <br />
+      <input type="radio" id="osnovno" name="iskustvo" value="osnovno" />
+      <label for="osnovno">Osnovno</label>
+      <br />
+      <input type="radio" id="srednje" name="iskustvo" value="srednje" />
+      <label for="srednje">Srednje ili više</label>
+      <br />
+      <label for="razred">Koji si razred?</label>
+      <select id="razred" name="razred">
+        <option value="prvi">Prvi</option>
+        <option value="drugi">Drugi</option>
+        <option value="treci">Treći</option>
+        <option value="cetvrti">Četvrti</option>
+      </select>
+      <br />
+      <input type="checkbox" id="saglasnost" name="saglasnost" />
+      <label for="saglasnost">Slažem se da me se kontaktira putem emaila.</label>
+      <br />
+      <input type="submit" value="Prijavi se" />
+    </form>
+
+    <p>
+      Više informacija o fakultetu na kojem se radionica održava pronađi na stranici
+      <a href="https://www.etf.unsa.ba/">Elektrotehničkog fakulteta Sarajevo</a>.
+    </p>
+  </body>
+</html>

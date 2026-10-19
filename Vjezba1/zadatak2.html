@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="hr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Rezervacija sportske sale</title>
+  </head>
+  <body>
+    <h1>Rezervacija sportske sale</h1>
+
+    <form>
+      <label for="ime">Ime i prezime:</label>
+      <input type="text" id="ime" name="ime" />
+      <br />
+      <label for="telefon">Broj telefona:</label>
+      <input type="text" id="telefon" name="telefon" />
+      <br />
+
+      <p>Dan u tjednu (jedan izbor):</p>
+      <input type="radio" id="pon" name="dan" value="ponedjeljak" />
+      <label for="pon">Ponedjeljak</label>
+      <br />
+      <input type="radio" id="uto" name="dan" value="utorak" />
+      <label for="uto">Utorak</label>
+      <br />
+      <input type="radio" id="sri" name="dan" value="srijeda" />
+      <label for="sri">Srijeda</label>
+      <br />
+      <input type="radio" id="cet" name="dan" value="cetvrtak" />
+      <label for="cet">Četvrtak</label>
+      <br />
+      <input type="radio" id="pet" name="dan" value="petak" />
+      <label for="pet">Petak</label>
+      <br />
+
+      <label for="trajanje">Trajanje termina:</label>
+      <select id="trajanje" name="trajanje">
+        <option value="60">60 minuta</option>
+        <option value="90">90 minuta</option>
+        <option value="120">120 minuta</option>
+      </select>
+      <br />
+
+      <p>Potrebna oprema (moguće više izbora):</p>
+      <input type="checkbox" id="lopta" name="oprema" value="lopta" />
+      <label for="lopta">Lopta</label>
+      <br />
+      <input type="checkbox" id="dresovi" name="oprema" value="dresovi" />
+      <label for="dresovi">Dresovi</label>
+      <br />
+      <input type="checkbox" id="mreza" name="oprema" value="mreza" />
+      <label for="mreza">Mreža</label>
+      <br />
+      <input type="checkbox" id="kozna" name="oprema" value="kozna" />
+      <label for="kozna">Kozne (golaške)</label>
+      <br />
+
+      <input type="submit" value="Rezerviši" />
+    </form>
+  </body>
+</html>

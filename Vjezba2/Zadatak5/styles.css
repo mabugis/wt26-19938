@@ -1,0 +1,19 @@
+body {
+	background-color: yellow;
+}
+
+table {
+	width: 100%;
+}
+
+th {
+	background-color: gray;
+}
+
+td {
+	text-align: center;
+}
+
+.predmet {
+	text-align: left;
+}

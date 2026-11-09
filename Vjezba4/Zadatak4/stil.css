@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+}
+
+.naslov {
+  width: fit-content;
+  cursor: pointer;
+  user-select: none;
+}
+
+.naslov:hover {
+  color: darkgreen;
+}
+
+.znak {
+  display: inline-block;
+  width: 12px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.podstablo {
+  display: none;
+  margin-left: 25px;
+}

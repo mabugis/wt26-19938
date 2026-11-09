@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+  <meta charset="UTF-8">
+  <title>zadatak3</title>
+  <link rel="stylesheet" type="text/css" href="stil.css">
+</head>
+<body>
+  <h1>Evidencija troškova izleta</h1>
+
+  <form id="forma">
+    <label for="naziv">Naziv</label>
+    <input type="text" id="naziv">
+
+    <label for="iznos">Iznos (KM)</label>
+    <input type="text" id="iznos" placeholder="npr. 12.50">
+
+    <button type="submit">Dodaj</button>
+  </form>
+
+  <p id="greska"></p>
+
+  <p>Broj stavki: <span id="brojStavki">3</span></p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Naziv</th>
+        <th>Iznos (KM)</th>
+      </tr>
+    </thead>
+    <tbody id="stavke">
+      <tr>
+        <td>Gorivo</td>
+        <td class="iznos">40.00</td>
+      </tr>
+      <tr>
+        <td>Hrana</td>
+        <td class="iznos">25.50</td>
+      </tr>
+      <tr>
+        <td>Karta za žičaru</td>
+        <td class="iznos">20.00</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>Zbir</th>
+        <th class="iznos" id="zbir">85.50</th>
+      </tr>
+    </tfoot>
+  </table>
+
+  <script src="zadatak3.js"></script>
+</body>
+</html>

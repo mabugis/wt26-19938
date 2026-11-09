@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+}
+
+#sazetak {
+  font-weight: bold;
+}
+
+#lista {
+  list-style-type: none;
+  padding: 0;
+  max-width: 650px;
+}
+
+#lista li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 2px solid darkgreen;
+  cursor: pointer;
+}
+
+#lista li .tekst {
+  flex: 1;
+}
+
+#lista li.zavrseno {
+  background-color: #E2F0D9;
+  border-color: #999999;
+}
+
+#lista li.zavrseno .tekst {
+  color: #666666;
+  text-decoration: line-through;
+}
+
+#lista li.zavrseno .stanje {
+  color: darkgreen;
+  font-weight: bold;
+}

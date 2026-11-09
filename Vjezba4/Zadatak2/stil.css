@@ -1,0 +1,70 @@
+body {
+  font-family: sans-serif;
+}
+
+#forma {
+  max-width: 450px;
+}
+
+#forma label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#naslov,
+#tekst {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#greska {
+  color: #C00000;
+  font-weight: bold;
+}
+
+#pregled {
+  max-width: 450px;
+  padding: 15px;
+  border: 3px solid #999999;
+}
+
+#pregledKategorija {
+  padding: 3px 8px;
+  font-size: 13px;
+  color: white;
+  background-color: #999999;
+}
+
+#pregledTekst {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+#pregledNaslov {
+  overflow-wrap: anywhere;
+}
+
+#pregled.pregled-informacija {
+  border-color: darkgreen;
+  background-color: #E2F0D9;
+}
+
+#pregled.pregled-informacija #pregledKategorija {
+  background-color: darkgreen;
+}
+
+#pregled.pregled-hitno {
+  border-color: #C00000;
+  background-color: #FBE5E5;
+}
+
+#pregled.pregled-hitno #pregledKategorija {
+  background-color: #C00000;
+}
+
+#pregled.pregled-hitno #pregledNaslov {
+  color: #C00000;
+  text-transform: uppercase;
+}

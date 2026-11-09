@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+  <meta charset="UTF-8">
+  <title>zadatak2</title>
+  <link rel="stylesheet" type="text/css" href="stil.css">
+</head>
+<body>
+  <h1>Kratka obavijest</h1>
+
+  <form id="forma">
+    <label for="naslov">Naslov</label>
+    <input type="text" id="naslov">
+
+    <label for="tekst">Tekst obavijesti</label>
+    <textarea id="tekst" rows="4"></textarea>
+
+    <fieldset>
+      <legend>Kategorija</legend>
+      <label><input type="radio" name="kategorija" value="informacija" checked> Informacija</label>
+      <label><input type="radio" name="kategorija" value="hitno"> Hitno</label>
+    </fieldset>
+
+    <p id="greska"></p>
+
+    <button type="submit">Pregled</button>
+    <button type="reset">Vrati formu na početno stanje</button>
+  </form>
+
+  <h2>Pregled</h2>
+
+  <div id="pregled">
+    <span id="pregledKategorija">Kategorija</span>
+    <h3 id="pregledNaslov">Naslov obavijesti</h3>
+    <p id="pregledTekst">Ovdje će biti prikazan tekst obavijesti.</p>
+  </div>
+
+  <script src="zadatak2.js"></script>
+</body>
+</html>

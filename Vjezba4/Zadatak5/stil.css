@@ -1,0 +1,12 @@
+#forma label,
+#forma input {
+  display: block;
+}
+
+#forma input {
+  margin-bottom: 5px;
+}
+
+#greska {
+  color: #C00000;
+}
